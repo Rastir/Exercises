@@ -1,5 +1,6 @@
 package com.liveaqua.cala.controller;
 
+import com.liveaqua.cala.dto.PersoAquaDTO;
 import com.liveaqua.cala.model.Persona;
 import com.liveaqua.cala.service.IPersonaService;
 import java.util.List;
@@ -43,5 +44,13 @@ public class PersonaController {
         return "La persona fue editada correctamente";
     }
     
+    @GetMapping("/personas/traer-aqualovers")
+    public List<Persona> traerAqualovers(){
+        return persoServ.getAqualovers();
+    }
     
+    @GetMapping("/personas/info-aqua")
+    public List<PersoAquaDTO> traerInfoAqua(){
+        return persoServ.getPersoAqualovers();
+    }
 }
