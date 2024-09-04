@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.3</version>
+		<version>3.2.9</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.liveaqua</groupId>
@@ -61,35 +61,10 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-                        <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-data-jpa</artifactId>
-                    <version>3.2.5</version>
-                </dependency>
-                <dependency>
-                    <groupId>org.hibernate</groupId>
-                    <artifactId>hibernate-core</artifactId>
-                    <version>5.6.15.Final</version>
-                </dependency>
-	 <dependency>
-	  <groupId>mysql</groupId>
-	  <artifactId>mysql-connector-java</artifactId>
-	  <version>8.0.33</version>
-	  <type>pom</type>
-	 </dependency>
-	 <dependency>
-	  <groupId>org.junit.jupiter</groupId>
-	  <artifactId>junit-jupiter-api</artifactId>
-	  <version>5.10.3</version>
-	  <scope>test</scope>
-	  <type>jar</type>
-	 </dependency>
-	 <dependency>
-	  <groupId>org.springframework.boot</groupId>
-	  <artifactId>spring-boot-test</artifactId>
-	  <version>3.3.3</version>
-	  <scope>test</scope>
-	  <type>jar</type>
-	 </dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>

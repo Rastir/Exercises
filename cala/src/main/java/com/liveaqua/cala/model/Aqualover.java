@@ -16,14 +16,14 @@ public class Aqualover {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id_aqualover;
     private int noVisit;
-    private LocalDate lastVisit;
+    private String lastVisit;
 
     public Aqualover() {
     }
 
-    public Aqualover(Long id_aqualover, int noVisit, LocalDate lastVisit) {
+    public Aqualover(Long id_aqualover, int noVisit, String lastVisit) {
         this.id_aqualover = id_aqualover;
         this.noVisit = noVisit;
         this.lastVisit = lastVisit;
-    } 
+    }
 }

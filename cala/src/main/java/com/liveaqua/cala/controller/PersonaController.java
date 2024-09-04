@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -22,6 +23,11 @@ public class PersonaController {
     @GetMapping("/personas/traer")
     public List<Persona> traerPersonas(){
         return persoServ.getPersona();
+    }
+    
+    @GetMapping("/personas/traer/{id_persona}")
+    public Persona findPersona(@RequestParam Long id_persona){
+        return persoServ.findPersona(id_persona);
     }
     
     @PostMapping("/personas/crear")
