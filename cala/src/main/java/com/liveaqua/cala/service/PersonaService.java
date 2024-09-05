@@ -53,9 +53,10 @@ public class PersonaService implements IPersonaService{
         return listaAqualovers;
     }
 
+
     @Override
-    public List<PersoAquaDTO> getPersoAqualovers() {
-        
+    public PersoAquaDTO getPersoAqualovers(Long id_persona) {
+    
         List<Persona> listaPersonas = this.getPersona();
         List<PersoAquaDTO> listaPersoAqua = new ArrayList<PersoAquaDTO>();
         PersoAquaDTO perso_aqua = new PersoAquaDTO();
@@ -68,17 +69,18 @@ public class PersonaService implements IPersonaService{
             perso_aqua.setEmail(perso.getEmail());
             perso_aqua.setNoVisit(perso_aqua.getNoVisit());
             perso_aqua.setLastVisit(perso_aqua.getLastVisit());
-            perso_aqua.setAlergias(perso.getAlergias());
-            perso_aqua.setAlimentosYBebidas(perso.getAlimentosYBebidas());
+            perso_aqua.setAlergias(perso.getAlergies());
+            perso_aqua.setAlimentosYBebidas(perso.getFoodAndBeverages());
             perso_aqua.setButler(perso.getButler());
             perso_aqua.setExperience(perso.getExperience());
-            perso_aqua.setPreferencias(perso.getPreferencias());
-            perso_aqua.setNotas(perso.getNotas());
+            perso_aqua.setPreferencias(perso.getPreference());
+            perso_aqua.setNotas(perso.getNotes());
             
             
             listaPersoAqua.add(perso_aqua);
             perso_aqua = new PersoAquaDTO();//reset
         }
-        return listaPersoAqua;
+        return (PersoAquaDTO) listaPersoAqua;
+        
     }
 }

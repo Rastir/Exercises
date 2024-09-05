@@ -11,19 +11,19 @@ public interface IPersonaService {
     public void savePersona (Persona persona);
     // Read
     //Read of only one person
-    public Persona findPersona (Long id);
+    public Persona findPersona (Long id_persona);
     // Read method to bring all the people
     public List<Persona> getPersona();
     // Update
     public void editPersona (Persona persona);    
     //Delete
-    public void deletePersona (Long id);
+    public void deletePersona (Long id_persona);
     
     //Aditional functions
     //Get only aqualovers
     public List<Persona> getAqualovers();
     
     // Get combined information
-    public List<PersoAquaDTO> getPersoAqualovers();
+    public PersoAquaDTO getPersoAqualovers(Long id_persona);
 
 }

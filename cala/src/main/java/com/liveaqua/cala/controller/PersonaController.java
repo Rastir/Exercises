@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -25,9 +24,9 @@ public class PersonaController {
         return persoServ.getPersona();
     }
     
-    @GetMapping("/personas/traer/{id_persona}")
-    public Persona findPersona(@RequestParam Long id_persona){
-        return persoServ.findPersona(id_persona);
+    @GetMapping("/personas/traer/{id}")
+    public Persona findPersona(@PathVariable Long id){
+        return persoServ.findPersona(id);
     }
     
     @PostMapping("/personas/crear")
@@ -55,8 +54,5 @@ public class PersonaController {
         return persoServ.getAqualovers();
     }
     
-    @GetMapping("/personas/info-aqua")
-    public List<PersoAquaDTO> traerInfoAqua(){
-        return persoServ.getPersoAqualovers();
-    }
+    
 }

@@ -19,12 +19,13 @@ public class PersoAquaDTO {
     private String preferencias;
     private String alergias;
     private String notas;
+    private String perks;
     
 
     public PersoAquaDTO() {
     }
 
-    public PersoAquaDTO(String name, String lastName, String email, int noVisit, int age, String lastVisit, String alimentosYBebidas, String experience, String butler, String preferencias, String alergias, String notas) {
+    public PersoAquaDTO(String name, String lastName, String email, int noVisit, int age, String lastVisit, String alimentosYBebidas, String experience, String butler, String preferencias, String alergias, String notas, String perks) {
         this.name = name;
         this.lastName = lastName;
         this.email = email;
@@ -37,6 +38,9 @@ public class PersoAquaDTO {
         this.preferencias = preferencias;
         this.alergias = alergias;
         this.notas = notas;
+        this.perks = perks;
     }
+
+    
     
 }

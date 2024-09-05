@@ -4,7 +4,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import java.time.LocalDate;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,15 +14,14 @@ public class Aqualover {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id_aqualover;
-    private int noVisit;
-    private String lastVisit;
+    private String perks;
 
     public Aqualover() {
     }
 
-    public Aqualover(Long id_aqualover, int noVisit, String lastVisit) {
+    public Aqualover(Long id_aqualover, String perks) {
         this.id_aqualover = id_aqualover;
-        this.noVisit = noVisit;
-        this.lastVisit = lastVisit;
+        this.perks = perks;
     }
+
 }
