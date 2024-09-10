@@ -63,3 +63,443 @@
 09-Sep-2024 15:22:16.636 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
 09-Sep-2024 15:22:16.648 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 09-Sep-2024 15:22:16.662 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:31:32.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.93
+09-Sep-2024 15:31:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 2 2024 21:24:59 UTC
+09-Sep-2024 15:31:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.93.0
+09-Sep-2024 15:31:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+09-Sep-2024 15:31:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+09-Sep-2024 15:31:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+09-Sep-2024 15:31:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-21
+09-Sep-2024 15:31:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.4+8-LTS-274
+09-Sep-2024 15:31:32.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+09-Sep-2024 15:31:32.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:31:32.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:31:32.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\logging.properties
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:31:32.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\temp
+09-Sep-2024 15:31:32.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+09-Sep-2024 15:31:32.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+09-Sep-2024 15:31:32.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Sep-2024 15:31:32.099 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+09-Sep-2024 15:31:32.342 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+09-Sep-2024 15:31:32.365 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [458] milliseconds
+09-Sep-2024 15:31:32.402 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+09-Sep-2024 15:31:32.402 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+09-Sep-2024 15:31:32.411 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:31:32.420 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:31:32.443 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5d99c6b5]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4120)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4242)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\aldoj\OneDrive\Documentos\Proyectos\calaWebpage1\target\calaWebpage1-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+09-Sep-2024 15:31:32.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [42] ms
+09-Sep-2024 15:31:32.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] de la aplicación web
+09-Sep-2024 15:31:32.672 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:31:32.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] has finished in [256] ms
+09-Sep-2024 15:31:32.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] de la aplicación web
+09-Sep-2024 15:31:32.975 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:31:33.019 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] has finished in [307] ms
+09-Sep-2024 15:31:33.019 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] de la aplicación web
+09-Sep-2024 15:31:33.057 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:31:33.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] has finished in [47] ms
+09-Sep-2024 15:31:33.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] de la aplicación web
+09-Sep-2024 15:31:33.103 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:31:33.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] has finished in [39] ms
+09-Sep-2024 15:31:33.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] de la aplicación web
+09-Sep-2024 15:31:33.133 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:31:33.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] has finished in [30] ms
+09-Sep-2024 15:31:33.138 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:31:33.156 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [790] milliseconds
+09-Sep-2024 15:31:33.729 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/calaWebpage1]
+09-Sep-2024 15:31:33.749 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:31:33.749 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:31:33.788 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:31:33.793 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [44] ms
+09-Sep-2024 15:31:33.796 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/calaWebpage1]] after start() had already been called. The second call will be ignored.
+09-Sep-2024 15:31:42.193 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+09-Sep-2024 15:31:42.193 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:31:42.196 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+09-Sep-2024 15:31:42.219 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:31:42.232 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:38:30.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.93
+09-Sep-2024 15:38:30.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 2 2024 21:24:59 UTC
+09-Sep-2024 15:38:30.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.93.0
+09-Sep-2024 15:38:30.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+09-Sep-2024 15:38:30.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+09-Sep-2024 15:38:30.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+09-Sep-2024 15:38:30.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-21
+09-Sep-2024 15:38:30.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.4+8-LTS-274
+09-Sep-2024 15:38:30.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+09-Sep-2024 15:38:30.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:38:30.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:38:30.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Sep-2024 15:38:30.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+09-Sep-2024 15:38:30.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\logging.properties
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:38:30.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\temp
+09-Sep-2024 15:38:30.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+09-Sep-2024 15:38:30.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+09-Sep-2024 15:38:30.428 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Sep-2024 15:38:30.434 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+09-Sep-2024 15:38:30.695 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+09-Sep-2024 15:38:30.723 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [508] milliseconds
+09-Sep-2024 15:38:30.778 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+09-Sep-2024 15:38:30.778 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+09-Sep-2024 15:38:30.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:38:30.803 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:38:31.055 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:38:31.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [305] ms
+09-Sep-2024 15:38:31.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] de la aplicación web
+09-Sep-2024 15:38:31.138 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:38:31.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] has finished in [39] ms
+09-Sep-2024 15:38:31.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] de la aplicación web
+09-Sep-2024 15:38:31.351 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:38:31.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] has finished in [258] ms
+09-Sep-2024 15:38:31.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] de la aplicación web
+09-Sep-2024 15:38:31.429 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:38:31.435 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] has finished in [36] ms
+09-Sep-2024 15:38:31.435 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] de la aplicación web
+09-Sep-2024 15:38:31.473 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:38:31.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] has finished in [41] ms
+09-Sep-2024 15:38:31.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] de la aplicación web
+09-Sep-2024 15:38:31.506 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:38:31.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] has finished in [32] ms
+09-Sep-2024 15:38:31.512 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:38:31.526 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [800] milliseconds
+09-Sep-2024 15:38:33.842 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/calaWebpage1]
+09-Sep-2024 15:38:33.864 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:38:33.865 WARNING [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:38:33.899 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:38:33.902 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [37] ms
+09-Sep-2024 15:38:33.905 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/calaWebpage1]] after start() had already been called. The second call will be ignored.
+09-Sep-2024 15:38:45.157 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+09-Sep-2024 15:38:45.157 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:38:45.160 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+09-Sep-2024 15:38:45.174 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:38:45.188 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:42:05.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.93
+09-Sep-2024 15:42:05.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 2 2024 21:24:59 UTC
+09-Sep-2024 15:42:05.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.93.0
+09-Sep-2024 15:42:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+09-Sep-2024 15:42:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+09-Sep-2024 15:42:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+09-Sep-2024 15:42:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-21
+09-Sep-2024 15:42:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.4+8-LTS-274
+09-Sep-2024 15:42:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+09-Sep-2024 15:42:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:42:05.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:42:05.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Sep-2024 15:42:05.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+09-Sep-2024 15:42:05.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+09-Sep-2024 15:42:05.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Sep-2024 15:42:05.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Sep-2024 15:42:05.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\logging.properties
+09-Sep-2024 15:42:05.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Sep-2024 15:42:05.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+09-Sep-2024 15:42:05.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Sep-2024 15:42:05.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+09-Sep-2024 15:42:05.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:42:05.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:42:05.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\temp
+09-Sep-2024 15:42:05.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+09-Sep-2024 15:42:05.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+09-Sep-2024 15:42:05.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Sep-2024 15:42:05.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+09-Sep-2024 15:42:06.001 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+09-Sep-2024 15:42:06.029 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [454] milliseconds
+09-Sep-2024 15:42:06.078 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+09-Sep-2024 15:42:06.079 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+09-Sep-2024 15:42:06.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:42:06.102 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:42:06.361 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:06.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [308] ms
+09-Sep-2024 15:42:06.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] de la aplicación web
+09-Sep-2024 15:42:06.446 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:06.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] has finished in [44] ms
+09-Sep-2024 15:42:06.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] de la aplicación web
+09-Sep-2024 15:42:06.668 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:06.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] has finished in [273] ms
+09-Sep-2024 15:42:06.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] de la aplicación web
+09-Sep-2024 15:42:06.758 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:06.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] has finished in [42] ms
+09-Sep-2024 15:42:06.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] de la aplicación web
+09-Sep-2024 15:42:06.812 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:06.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] has finished in [51] ms
+09-Sep-2024 15:42:06.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] de la aplicación web
+09-Sep-2024 15:42:06.841 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:06.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] has finished in [29] ms
+09-Sep-2024 15:42:06.854 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:42:06.872 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [841] milliseconds
+09-Sep-2024 15:42:08.677 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/calaWebpage1]
+09-Sep-2024 15:42:08.698 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:42:08.698 WARNING [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:42:08.739 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:08.741 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [44] ms
+09-Sep-2024 15:42:08.744 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/calaWebpage1]] after start() had already been called. The second call will be ignored.
+09-Sep-2024 15:42:20.028 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+09-Sep-2024 15:42:20.029 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:42:20.032 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+09-Sep-2024 15:42:20.042 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:42:20.068 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:42:55.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.93
+09-Sep-2024 15:42:55.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 2 2024 21:24:59 UTC
+09-Sep-2024 15:42:55.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.93.0
+09-Sep-2024 15:42:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+09-Sep-2024 15:42:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+09-Sep-2024 15:42:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+09-Sep-2024 15:42:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-21
+09-Sep-2024 15:42:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.4+8-LTS-274
+09-Sep-2024 15:42:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+09-Sep-2024 15:42:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:42:55.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:42:55.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\logging.properties
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:42:55.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\temp
+09-Sep-2024 15:42:55.959 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+09-Sep-2024 15:42:55.959 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+09-Sep-2024 15:42:55.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Sep-2024 15:42:55.964 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+09-Sep-2024 15:42:56.207 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+09-Sep-2024 15:42:56.231 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [456] milliseconds
+09-Sep-2024 15:42:56.269 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+09-Sep-2024 15:42:56.269 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+09-Sep-2024 15:42:56.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:42:56.287 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:42:56.547 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:56.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [307] ms
+09-Sep-2024 15:42:56.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] de la aplicación web
+09-Sep-2024 15:42:56.649 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:56.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] has finished in [67] ms
+09-Sep-2024 15:42:56.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] de la aplicación web
+09-Sep-2024 15:42:56.869 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:56.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] has finished in [264] ms
+09-Sep-2024 15:42:56.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] de la aplicación web
+09-Sep-2024 15:42:56.948 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:56.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] has finished in [39] ms
+09-Sep-2024 15:42:56.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] de la aplicación web
+09-Sep-2024 15:42:56.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:56.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] has finished in [37] ms
+09-Sep-2024 15:42:56.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] de la aplicación web
+09-Sep-2024 15:42:57.020 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:57.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] has finished in [32] ms
+09-Sep-2024 15:42:57.027 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:42:57.045 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [812] milliseconds
+09-Sep-2024 15:42:57.640 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/calaWebpage1]
+09-Sep-2024 15:42:57.659 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:42:57.659 WARNING [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:42:57.694 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:42:57.696 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [37] ms
+09-Sep-2024 15:42:57.698 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/calaWebpage1]] after start() had already been called. The second call will be ignored.
+09-Sep-2024 15:55:22.366 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+09-Sep-2024 15:55:22.366 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:55:22.370 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+09-Sep-2024 15:55:22.389 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:55:22.405 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:55:59.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.93
+09-Sep-2024 15:55:59.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 2 2024 21:24:59 UTC
+09-Sep-2024 15:55:59.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.93.0
+09-Sep-2024 15:55:59.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+09-Sep-2024 15:55:59.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+09-Sep-2024 15:55:59.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+09-Sep-2024 15:55:59.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-21
+09-Sep-2024 15:55:59.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.4+8-LTS-274
+09-Sep-2024 15:55:59.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+09-Sep-2024 15:55:59.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:55:59.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\logging.properties
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\temp
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Sep-2024 15:55:59.194 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+09-Sep-2024 15:55:59.425 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+09-Sep-2024 15:55:59.442 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [440] milliseconds
+09-Sep-2024 15:55:59.474 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+09-Sep-2024 15:55:59.474 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+09-Sep-2024 15:55:59.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:55:59.489 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:55:59.715 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:55:59.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [257] ms
+09-Sep-2024 15:55:59.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] de la aplicación web
+09-Sep-2024 15:55:59.811 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:55:59.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] has finished in [67] ms
+09-Sep-2024 15:55:59.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] de la aplicación web
+09-Sep-2024 15:56:00.015 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:56:00.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] has finished in [246] ms
+09-Sep-2024 15:56:00.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] de la aplicación web
+09-Sep-2024 15:56:00.094 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:56:00.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] has finished in [39] ms
+09-Sep-2024 15:56:00.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] de la aplicación web
+09-Sep-2024 15:56:00.136 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:56:00.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] has finished in [38] ms
+09-Sep-2024 15:56:00.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] de la aplicación web
+09-Sep-2024 15:56:00.162 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:56:00.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] has finished in [26] ms
+09-Sep-2024 15:56:00.168 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:56:00.185 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [738] milliseconds
+09-Sep-2024 15:56:00.781 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/calaWebpage1]
+09-Sep-2024 15:56:00.807 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:56:00.808 WARNING [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:56:00.839 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:56:00.841 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [34] ms
+09-Sep-2024 15:56:00.843 INFO [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/calaWebpage1]] after start() had already been called. The second call will be ignored.
+09-Sep-2024 15:57:02.972 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+09-Sep-2024 15:57:02.972 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:57:02.976 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+09-Sep-2024 15:57:02.987 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:57:02.990 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:57:26.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.93
+09-Sep-2024 15:57:26.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 2 2024 21:24:59 UTC
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.93.0
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-21
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.4+8-LTS-274
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:57:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\logging.properties
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93
+09-Sep-2024 15:57:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\temp
+09-Sep-2024 15:57:26.961 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+09-Sep-2024 15:57:26.961 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+09-Sep-2024 15:57:26.961 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Sep-2024 15:57:26.967 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+09-Sep-2024 15:57:27.189 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+09-Sep-2024 15:57:27.210 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [433] milliseconds
+09-Sep-2024 15:57:27.256 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+09-Sep-2024 15:57:27.257 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.93]
+09-Sep-2024 15:57:27.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:57:27.268 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:57:27.521 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:57:27.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [288] ms
+09-Sep-2024 15:57:27.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] de la aplicación web
+09-Sep-2024 15:57:27.596 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:57:27.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\docs] has finished in [45] ms
+09-Sep-2024 15:57:27.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] de la aplicación web
+09-Sep-2024 15:57:27.813 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:57:27.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\examples] has finished in [244] ms
+09-Sep-2024 15:57:27.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] de la aplicación web
+09-Sep-2024 15:57:27.895 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:57:27.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\host-manager] has finished in [43] ms
+09-Sep-2024 15:57:27.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] de la aplicación web
+09-Sep-2024 15:57:27.935 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:57:27.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\manager] has finished in [35] ms
+09-Sep-2024 15:57:27.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] de la aplicación web
+09-Sep-2024 15:57:27.968 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:57:27.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\webapps\ROOT] has finished in [31] ms
+09-Sep-2024 15:57:27.974 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 15:57:27.991 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [779] milliseconds
+09-Sep-2024 15:57:28.572 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/calaWebpage1]
+09-Sep-2024 15:57:28.598 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml]
+09-Sep-2024 15:57:28.599 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/calaWebpage1] in deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has been ignored
+09-Sep-2024 15:57:28.629 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+09-Sep-2024 15:57:28.632 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Proyectos\apache-tomcat-9.0.93-windows-x64\apache-tomcat-9.0.93\conf\Catalina\localhost\calaWebpage1.xml] has finished in [34] ms
+09-Sep-2024 15:57:28.635 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/calaWebpage1]] after start() had already been called. The second call will be ignored.
+09-Sep-2024 17:07:41.735 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+09-Sep-2024 17:07:41.736 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 17:07:41.740 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+09-Sep-2024 17:07:41.762 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Sep-2024 17:07:41.778 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
