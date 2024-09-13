@@ -1,4 +1,4 @@
-package com.liveaqua.cala.dto;
+package dto;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -40,6 +40,4 @@ public class PersoAquaDTO {
         this.perks = perks;
     }
 
-    
-    
 }

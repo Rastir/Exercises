@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta a la API</title>
+</head>
+<body>
+    <h1>Consulta a la API</h1>
+    <button id="consultar">Consultar API</button>
+    <div id="resultado"></div>
+
+    <script>
+        document.getElementById('consultar').addEventListener('click', function() {
+            fetch('http://localhost:8080/personas/traer')
+                .then(response => response.json())
+                .then(data => {
+                    // Aquí mostramos los datos en el div con id "resultado"
+                    document.getElementById('resultado').innerText = JSON.stringify(data, null, 2);
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>
