@@ -11,5 +11,6 @@ package com.liveaqua.cala.model;
 public class vacas {
     
     String namr;
+    // esto es un comentario diciendo que estas son mis vacaciones dia 1 
     
 }
