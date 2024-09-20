@@ -18,5 +18,9 @@ public class vacas {
     // esto es un comentario diciendo que estas son mis vacaciones, día 3, hoy estuve paseando con mi esposa y mi 
     // padre por el centro de la ciudad, me ha llevado de comprar y tambien a realizarme un examen ortopedico, así
     // podré tener una mejor calidad de vida para mi sin dolor en los pies.
+    // ESTO ES UN COMENTARIO DICIENDO QUE ESTAS SON MIS VACACIONES, DÍA 4, ESTOY EN SAN MIGUEL DE ALLENDE CON MI ESPOSA
+    // Y MIS ABUELOS, HEMOS VISITADO DOLORES HIDALGO Y COMIDO HELADO DE LAVANDA, HA ESTADO DELICIOSO, MAÑANA ESPERA
+    // UN DÍA DE SPA EN LAS AGUAS TERMALES "EL ESCONDIDO" DESPUES UNA VISITA AL CENTRO HISTORICO Y DESPUES UNA VUELTA
+    // AL SUPERMERCADO CON LA FAMILIA.
     
 }
