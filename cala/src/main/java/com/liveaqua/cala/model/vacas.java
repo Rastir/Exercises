@@ -27,5 +27,7 @@ public class vacas {
     // ahora de adulto lo puedo apreciar más, es hermoso, no habia tenido un momento de relajación así en un buen tiempo
     // agradezco a mi Dios por mi familia y la oportunidad de disfrutar el momento que tengo con ellos mientras pueda
     // solo mi señor sabe cuanto pueda disfrutar de esto.
+    // Fin de las vacaciones. 23 de Septiembre. 2024
+    
     
 }
