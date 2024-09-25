@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81b64f4b-470b-425e-bdb0-4036ae47ea35" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/ClinicaVeterinariaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/ClinicaVeterinariaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/ClinicaVeterinariaApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/class-use/ClinicaVeterinariaApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/controller/DuenioController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/controller/MascotaController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/controller/class-use/DuenioController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/controller/class-use/MascotaController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/controller/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/controller/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/controller/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/dto/MascoDuenioDTO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/dto/class-use/MascoDuenioDTO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/dto/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/dto/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/dto/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/model/Duenio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/model/Mascota.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/model/class-use/Duenio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/model/class-use/Mascota.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/model/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/repository/IDuenioRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/repository/IMascotaRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/repository/class-use/IDuenioRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/repository/class-use/IMascotaRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/repository/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/repository/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/repository/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/DuenioService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/IDuenioService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/IMascotaService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/MascotaService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/class-use/DuenioService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/class-use/IDuenioService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/class-use/IMascotaService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/class-use/MascotaService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/com/todocodeacademy/clinica_veterinaria/service/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/legal/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/legal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/legal/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/legal/jqueryUI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/script-dir/jquery-3.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/search-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/site/apidocs/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/Imagenes/1710563014753.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/Imagenes/1710563023904.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/Imagenes/1710563030972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/Imagenes/1710563040564.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/Imagenes/1710563054592.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/Imagenes/1710563062469.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/ClinicaVeterinariaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/controller/DuenioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/controller/MascotaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/dto/MascotaDuenioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/model/Duenio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/model/Mascota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/repository/IDuenioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/repository/IMascotaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/service/DuenioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/service/IDuenioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/service/IMascotaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/java/com/example/clinica_veterinaria/service/MascotaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria/src/test/java/com/example/clinica_veterinaria/ClinicaVeterinariaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria1/src/main/java/com/flacomoderno/clinica_veterinaria1/ClinicaVeterinaria1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clinica_veterinaria1/src/test/java/com/flacomoderno/clinica_veterinaria1/ClinicaVeterinaria1ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ma0mGcHmAQDzs88k2WMnuxs0tB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Proyectos/clin_vet-master"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="clinvet" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="DB_PASSWORD" value="1234" />
+        <env name="DB_PLATFORM" value="org.hibernate.dialect .MySQL8Dialect" />
+        <env name="DB_URL" value="jdbc:mysql://clinica_vet:3306/clinica_veterinaria?createDatabaseIfNotExist=true&amp;serverTimezone=UTC" />
+        <env name="DB_USER" value="root" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.todocodeacademy.clinica_veterinaria.ClinicaVeterinariaApplication" />
+      <module name="clinica_veterinaria" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81b64f4b-470b-425e-bdb0-4036ae47ea35" name="Changes" comment="" />
+      <created>1727299537135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727299537135</updated>
+    </task>
+    <servers />
+  </component>
+</project>
