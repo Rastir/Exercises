@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a1c883f-97f0-4137-89ae-2a320989c702" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/CalaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/controller/AqualoverController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/controller/PersonaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/dto/PersoAquaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/model/Aqualover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/model/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/model/vacas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/repository/IAqualoverRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/repository/IPersonaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/service/AqualoverService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/service/IAqualoverService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/service/IPersonaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveaqua/cala/service/PersonaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/liveaqua/cala/CalaApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2mXiRjQnD7fx5U2KagTNlaQT3HP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Proyectos/cala"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="cala" type="Application" factoryName="Application">
+      <envs>
+        <env name="${DB_PASSWORD}" value="admin" />
+        <env name="DB_PLATFORM" value="org.hibernate.dialect.MySQL8Dialect" />
+        <env name="${DB_USER}" value="admin" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.liveaqua.cala.CalaApplication" />
+      <module name="cala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a1c883f-97f0-4137-89ae-2a320989c702" name="Changes" comment="" />
+      <created>1727229316106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727229316106</updated>
+    </task>
+    <servers />
+  </component>
+</project>

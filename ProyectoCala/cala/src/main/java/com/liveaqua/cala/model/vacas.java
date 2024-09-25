@@ -28,6 +28,6 @@ public class vacas {
     // agradezco a mi Dios por mi familia y la oportunidad de disfrutar el momento que tengo con ellos mientras pueda
     // solo mi señor sabe cuanto pueda disfrutar de esto.
     // Fin de las vacaciones. 23 de Septiembre. 2024
-    
+    //spring.datasource.url=jdbc:mysql://localhost:3306/aqualovers?useSSL=false&serverTimezone=UTC
     
 }

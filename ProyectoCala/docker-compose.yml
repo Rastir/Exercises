@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  app_cala:
+    build: cala
+    mem_limit: 512m
+    ports:
+      - "8080:8080"
+    environment:
+      DB_URL: jdbc:mysql://cala:3306/cala?createDatabaseIfNotExist=true&serverTimezone=UTC
+      DB_USER_NAME: admin
+      DB_PASSWORD: admin
+    restart: always
+    depends_on:
+      cala:
+          condition: service_healthy
+  cala:
+    image: mysql:8.0.33 
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_PASSWORD: admin
+      MYSQL_DATABASE: cala
+    restart: always
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 10
