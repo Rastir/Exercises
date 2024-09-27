@@ -1,13 +1,55 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.todocodeacademy.clinica_veterinaria.service;
 
-/**
- *
- * @author aldoj
- */
-public class PersonaService {
+
+import com.todocodeacademy.clinica_veterinaria.model.Persona;
+import com.todocodeacademy.clinica_veterinaria.repository.IPersonaRepository;
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class PersonaService implements IPersonaService{
     
+    @Autowired
+    private IPersonaRepository repoPerso;
+
+    @Override
+    public void savePersona(Persona persona) {
+        repoPerso.save(persona);
+    }
+
+    @Override
+    public Persona findPersona(Long id) {
+        return repoPerso.findById(id).orElse(null);
+    }
+
+    @Override
+    public List<Persona> getPersona() {
+        List<Persona> listaPersonas = repoPerso.findAll();
+        return listaPersonas;
+    }
+
+    @Override
+    public void editPersona(Persona persona) {
+        this.savePersona(persona);
+    }
+
+    @Override
+    public void deletePersona(Long id) {
+        repoPerso.deleteById(id);
+    }    
+
+    @Override
+    public List<Persona> getAqualovers() {
+        List<Persona> listaPersonas = this.getPersona();
+        List<Persona> listaAqualovers = new ArrayList<Persona>();
+        
+        for(Persona perso:listaPersonas){
+            if(perso.isLal() == true){
+               listaAqualovers.add(perso);
+            }
+        }
+        return listaAqualovers;
+    }
 }
