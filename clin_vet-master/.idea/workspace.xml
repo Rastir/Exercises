@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59c4c94-ab93-4fc2-b3ea-897158afd054" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../PortafolioAldo" beforeDir="false" afterPath="$PROJECT_DIR$/../PortafolioAldo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cala/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/ClinicaVeterinariaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/ClinicaVeterinariaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/controller/AqualoverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/controller/AqualoverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/controller/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/controller/PersonaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/repository/IPersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/repository/IPersonaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/service/PersonaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/service/PersonaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/classes/com/todocodeacademy/clinica_veterinaria/ClinicaVeterinariaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/classes/com/todocodeacademy/clinica_veterinaria/ClinicaVeterinariaApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/classes/com/todocodeacademy/clinica_veterinaria/dto/MascoDuenioDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/classes/com/todocodeacademy/clinica_veterinaria/dto/MascoDuenioDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/classes/com/todocodeacademy/clinica_veterinaria/model/Duenio.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/classes/com/todocodeacademy/clinica_veterinaria/model/Duenio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/classes/com/todocodeacademy/clinica_veterinaria/model/Mascota.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/classes/com/todocodeacademy/clinica_veterinaria/model/Mascota.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +40,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Proyectos/clin_vet-master&quot;
   }
 }</component>
