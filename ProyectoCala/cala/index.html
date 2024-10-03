@@ -11,7 +11,7 @@
 
     <script>
         document.getElementById('consultar').addEventListener('click', function() {
-            fetch('http://localhost:8080/personas/traer')
+            fetch('http://vps-4437505-x.dattaweb.com:8080/personas/traer')
                 .then(response => response.json())
                 .then(data => {
                     // Aquí mostramos los datos en el div con id "resultado"
