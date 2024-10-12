@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59c4c94-ab93-4fc2-b3ea-897158afd054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calaWebpage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../calaWebpage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/clinica_veterinaria-0.0.1.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica_veterinaria/src/main/java/com/todocodeacademy/clinica_veterinaria/CorsConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Proyectos/clin_vet-master",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Proyectos/clin_vet-master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="clinvet" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />

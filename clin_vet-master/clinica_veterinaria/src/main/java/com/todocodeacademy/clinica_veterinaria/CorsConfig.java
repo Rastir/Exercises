@@ -16,8 +16,8 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins("https://rastir.github.io/CalaWeb/modificarAqualovers.html","http://127.0.0.1:5500/modificarAqualovers.html")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
-                                .allowedHeaders("*")
-                                .allowCredentials(true);
+                        .allowedHeaders("*")
+                        .allowCredentials(true);
             }
         };
     }
@@ -25,3 +25,4 @@ public class CorsConfig {
 }
 
 // Se está trabajando en cambiar unas cosas para que se pueda consumir una api desde un html tanto en casero desde local host como desde un github pages, por hoy creo que encontramos el fallo
+
