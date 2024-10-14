@@ -164,68 +164,52 @@
                     <div class="p-5">
                         <div class="text-center">
                             <h1 class="h4 text-gray-900 mb-4">Ingresar datos</h1>
-                            <p>Ingresa los datos del huesped a registrar, verifica que los datos ingresados
-                                sean los correctos.
-                            </p>
+                            <p>Ingresa los datos del huesped a registrar, verifica que los datos ingresados sean los correctos.</p>
                         </div>
                         <form class="user">
                             <div class="form-group row">
                                 <div class="col-sm-6 mb-3 mb-sm-0">
-                                    <input type="text" class="form-control form-control-user" id="exampleFirstName"
-                                        placeholder="Nombre">
+                                    <input type="text" class="form-control form-control-user" id="nombre" placeholder="Nombre">
                                 </div>
                                 <div class="col-sm-6">
-                                    <input type="text" class="form-control form-control-user" id="exampleLastName"
-                                        placeholder="Apellido">
+                                    <input type="text" class="form-control form-control-user" id="apellido" placeholder="Apellido">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                    placeholder="Email Address">
+                                <input type="email" class="form-control form-control-user" id="email" placeholder="Email Address">
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-6 mb-3 mb-sm-0">
-                                    <input type="text" class="form-control form-control-user" id="exampleFirstName"
-                                        placeholder="Edad">
+                                    <input type="text" class="form-control form-control-user" id="edad" placeholder="Edad">
                                 </div>
                                 <div class="col-sm-6">
-                                    <input type="text" class="form-control form-control-user" id="exampleLastName"
-                                        placeholder="Numero de visita">
+                                    <input type="text" class="form-control form-control-user" id="visita" placeholder="Numero de visita">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                    placeholder="¿Preferencias de alimentos y bebidas ?">
+                                <input type="text" class="form-control form-control-user" id="alimentos" placeholder="¿Preferencias de alimentos y bebidas?">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                    placeholder="¿Preferencias de experiencia ?">
+                                <input type="text" class="form-control form-control-user" id="experiencia" placeholder="¿Preferencias de experiencia?">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                    placeholder="¿Preferencias de mayordomos ?">
+                                <input type="text" class="form-control form-control-user" id="mayordomos" placeholder="¿Preferencias de mayordomos?">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                    placeholder="¿Preferencias del servicio de mayordomia ?">
+                                <input type="text" class="form-control form-control-user" id="servicioMayordomia" placeholder="¿Preferencias del servicio de mayordomia?">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                    placeholder="¿Alergias?">
+                                <input type="text" class="form-control form-control-user" id="alergias" placeholder="¿Alergias?">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                    placeholder="¿Alguna observación referente al huesped?">
+                                <input type="text" class="form-control form-control-user" id="observaciones" placeholder="¿Alguna observación referente al huesped?">
                             </div>
                             <hr>
-                            </a>
-                            <a href="altaAqualoversExitoso.html" class="btn btn-facebook btn-user btn-block">
+                            <button type="button" class="btn btn-facebook btn-user btn-block" id="agregarPersona">
                                 <i class="fa-solid fa-check"></i> Agregar persona
-                            </a>
+                            </button>
                         </form>
                     </div>
-                </div>
-            </div>
             <!-- End of Main Content -->
 
             <!-- Footer -->
@@ -284,6 +268,52 @@
 
     <!-- Font Awesome script-->
     <script src="https://kit.fontawesome.com/ec5d2cd8cd.js" crossorigin="anonymous"></script>
+
+    <!-- Heres the script for the json creation-->
+    <script>
+        document.getElementById('agregarPersona').addEventListener('click', async () => {
+            // Recopilar datos del formulario
+            const datos = {
+                name: document.getElementById('nombre').value,
+                lastName: document.getElementById('apellido').value,
+                email: document.getElementById('email').value,
+                age: parseInt(document.getElementById('edad').value),
+                noVisit: document.getElementById('visita').value,
+                foodAndBeverages: document.getElementById('alimentos').value,
+                experience: document.getElementById('experiencia').value,
+                butler: document.getElementById('mayordomos').value,
+                preference: document.getElementById('servicioMayordomia').value,
+                alergies: document.getElementById('alergias').value,
+                notes: document.getElementById('observaciones').value,
+                aquaLevel: [],
+                lal: true  // Puedes ajustar esto si es necesario
+            };
+
+            // Crear JSON
+            const datosJSON = JSON.stringify(datos);
+
+            // Realizar solicitud POST
+            try {
+                const response = await fetch('http://vps-4437505-x.dattaweb.com:8080/personas/crear', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: datosJSON
+                });
+
+                if (response.ok) {
+                    console.log('Registro exitoso:', await response.json());
+                    // Redirigir a otra página
+                    window.location.href = 'altaAqualoversExitoso.html';
+                } else {
+                    console.error('Error en el registro:', response.statusText);
+                }
+            } catch (error) {
+                console.error('Error en la solicitud:', error);
+            }
+        });
+    </script>
 
     <style>
         .fixed-size {
