@@ -278,7 +278,7 @@
                 lastName: document.getElementById('apellido').value,
                 email: document.getElementById('email').value,
                 age: parseInt(document.getElementById('edad').value),
-                noVisit: document.getElementById('visita').value,
+                noVisit: parseInt(document.getElementById('visita').value),
                 foodAndBeverages: document.getElementById('alimentos').value,
                 experience: document.getElementById('experiencia').value,
                 butler: document.getElementById('mayordomos').value,
@@ -286,7 +286,7 @@
                 alergies: document.getElementById('alergias').value,
                 notes: document.getElementById('observaciones').value,
                 aquaLevel: [],
-                lal: true  // Puedes ajustar esto si es necesario
+                lal: true,  // Puedes ajustar esto si es necesario
             };
 
             // Crear JSON

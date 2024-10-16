@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "4858c393-ed16-4e3b-b202-a949c5366157",
+		"name": "MicroservicioPacientes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dni\": \"12345678\",\r\n    \"nombre\":\"TodoCode\",\r\n    \"apellido\":\"Suscribite\",\r\n    \"fechaNac\": \"2020-01-08\",\r\n    \"telefono\":\"987456321\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9001/pacientes/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "9001",
+					"path": [
+						"pacientes",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9001/pacientes/traer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9001/pacientes/traer",
+					"host": [
+						"localhost"
+					],
+					"port": "9001",
+					"path": [
+						"pacientes",
+						"traer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
