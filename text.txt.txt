@@ -1,0 +1,1 @@
+added exercises for the 3rd class of microservices

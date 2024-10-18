@@ -1,0 +1,9 @@
+com\todocodeacademy\turnos\dto\TurnoDTO.class
+com\todocodeacademy\turnos\model\Paciente.class
+com\todocodeacademy\turnos\model\Turno.class
+com\todocodeacademy\turnos\service\TurnoService.class
+com\todocodeacademy\turnos\configuration\AppConfig.class
+com\todocodeacademy\turnos\controller\TurnoController.class
+com\todocodeacademy\turnos\service\ITurnoService.class
+com\todocodeacademy\turnos\TurnosApplication.class
+com\todocodeacademy\turnos\repository\ITurnoRepository.class
