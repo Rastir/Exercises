@@ -1,4 +1,4 @@
-package com.aldosanchez.microServiciosTurnos.model;
+ package com.todocodeacademy.turnos.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,12 +16,14 @@ import lombok.Setter;
 @NoArgsConstructor
 @Entity
 public class Turno {
-    
+  
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id_turno;
-    @Temporal(TemporalType.DATE)
+    @Temporal (TemporalType.DATE)  
     private LocalDate fecha;
     private String tratamiento;
     private String nombreCompletoPaciente;
+
+   
 }

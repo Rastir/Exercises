@@ -1,7 +1,7 @@
-package com.aldosanchez.microServiciosTurnos.service;
-import com.aldosanchez.microServiciosTurnos.model.Paciente;
-import com.aldosanchez.microServiciosTurnos.model.Turno;
-import com.aldosanchez.microServiciosTurnos.repository.ITurnoRepository;
+package com.todocodeacademy.turnos.service;
+import com.todocodeacademy.turnos.model.Paciente;
+import com.todocodeacademy.turnos.model.Turno;
+import com.todocodeacademy.turnos.repository.ITurnoRepository;
 import java.time.LocalDate;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,21 +24,18 @@ public class TurnoService implements ITurnoService{
 
     @Override
     public void saveTurno(LocalDate fecha, String tratamiento, String dniPaciente) {
-    
-        //buscar el paciente en la api
-        //Paciente pac = //buscar en la api
-        Paciente pac = apiConsumir.getForObject("http://localhost:9001/pacientes/traerdni/"+dniPaciente, Paciente.class);
-        
-        //String nombreCompletoPaciente = //lo que consumo de nombre de la api;
-        String nombreCompletoPaciente = pac.getNombre()+ "" + pac.getApellido();
-        
-        
+      
+       Paciente pac = apiConsumir.getForObject("http://localhost:9001/pacientes/traerdni/"+dniPaciente, Paciente.class);
+        String nombreCompletoPaciente = pac.getNombre() + " " + pac.getApellido();
+                
         Turno turno = new Turno();
         turno.setFecha(fecha);
         turno.setTratamiento(tratamiento);
         turno.setNombreCompletoPaciente(nombreCompletoPaciente);
         
         turnoRepo.save(turno);
+        
+        
     }
 
     @Override
@@ -53,6 +50,7 @@ public class TurnoService implements ITurnoService{
 
     @Override
     public void editTurno(Long id, Turno turno) {
+       
         Turno turn = this.findTurno(id);
         
         turn.setFecha(turno.getFecha());
@@ -61,5 +59,9 @@ public class TurnoService implements ITurnoService{
         
         turnoRepo.save(turn);
     }
+    
+    
+    
+    
     
 }
