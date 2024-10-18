@@ -1,1 +1,4 @@
 added exercises for the 3rd class of microservices
+
+
+added the update page to the work on progress 
