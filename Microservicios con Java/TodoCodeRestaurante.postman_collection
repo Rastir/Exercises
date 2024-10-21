@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "7c60a2cf-73af-4ebb-852b-4ca5399fdcbf",
+		"name": "TodoCode - Ejercicio Restaurante",
+		"description": "https://todocodeacademy.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27946130"
+	},
+	"item": [
+		{
+			"name": "localhost:9003/ingredientes/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nombre_ingrediente\":\"tomate\",\r\n\"platos\" : [\"Milanesa a la napolitana\", \"Pizza napolitana\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9003/ingredientes/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"ingredientes",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9003/ingredientes/traer/Milanesa a la napolitana",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9003/ingredientes/traer/Milanesa a la napolitana",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"ingredientes",
+						"traer",
+						"Milanesa a la napolitana"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9004/platos/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nombre\":\"Milanesa a la napolitana\",\r\n\"precio\":1200.0,\r\n\"descripcion\":\"Plato típico de la cultura argentina\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9004/platos/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "9004",
+					"path": [
+						"platos",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
