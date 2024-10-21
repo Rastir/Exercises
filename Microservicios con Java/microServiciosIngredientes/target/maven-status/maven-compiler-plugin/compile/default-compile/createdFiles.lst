@@ -1,0 +1,6 @@
+com\aldosanchez\microServiciosIngredientes\MicroServiciosIngredientesApplication.class
+com\aldosanchez\microServiciosIngredientes\repository\IIngredienteRepository.class
+com\aldosanchez\microServiciosIngredientes\model\Ingrediente.class
+com\aldosanchez\microServiciosIngredientes\service\IngredienteService.class
+com\aldosanchez\microServiciosIngredientes\service\IIngredienteService.class
+com\aldosanchez\microServiciosIngredientes\controller\IngredienteController.class

@@ -1,0 +1,8 @@
+com\aldosanchez\microServiciosPlatos\repository\IPlatoRepository.class
+com\aldosanchez\microServiciosPlatos\service\PlatoService.class
+com\aldosanchez\microServiciosPlatos\dto\IngredienteDTO.class
+com\aldosanchez\microServiciosPlatos\service\IPlatoService.class
+com\aldosanchez\microServiciosPlatos\MicroServiciosPlatosApplication.class
+com\aldosanchez\microServiciosPlatos\model\Plato.class
+com\aldosanchez\microServiciosPlatos\controller\PlatoController.class
+com\aldosanchez\microServiciosPlatos\dto\PlatoDTO.class
