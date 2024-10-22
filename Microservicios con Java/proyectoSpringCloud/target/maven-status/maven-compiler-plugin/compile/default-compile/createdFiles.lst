@@ -1,0 +1,4 @@
+com\aldosanchez\proyectoSpringCloud\dto\PokemonDTO.class
+com\aldosanchez\proyectoSpringCloud\controller\PokemonController.class
+com\aldosanchez\proyectoSpringCloud\repository\IPokeAPIClient.class
+com\aldosanchez\proyectoSpringCloud\ProyectoSpringCloudApplication.class

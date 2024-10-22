@@ -1,0 +1,4 @@
+com\aldosanchez\ejercicioSpringCloud2\EjercicioSpringCloud2Application.class
+com\aldosanchez\ejercicioSpringCloud2\repository\IPokeAPIClient.class
+com\aldosanchez\ejercicioSpringCloud2\controller\PokemonController.class
+com\aldosanchez\ejercicioSpringCloud2\dto\PokemonDTO.class
