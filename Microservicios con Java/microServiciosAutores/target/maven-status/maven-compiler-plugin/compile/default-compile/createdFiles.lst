@@ -1,0 +1,9 @@
+com\aldosanchez\microServiciosAutores\model\Libro.class
+com\aldosanchez\microServiciosAutores\dto\AutorDTO.class
+com\aldosanchez\microServiciosAutores\model\Autor.class
+com\aldosanchez\microServiciosAutores\MicroServiciosAutoresApplication.class
+com\aldosanchez\microServiciosAutores\service\AutorService.class
+com\aldosanchez\microServiciosAutores\configurations\AppConfig.class
+com\aldosanchez\microServiciosAutores\controller\AutorController.class
+com\aldosanchez\microServiciosAutores\repository\IAutorRepository.class
+com\aldosanchez\microServiciosAutores\service\IAutorService.class
