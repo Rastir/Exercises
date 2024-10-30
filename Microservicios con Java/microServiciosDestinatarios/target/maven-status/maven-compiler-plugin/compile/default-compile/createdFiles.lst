@@ -1,7 +1,0 @@
-com\aldosanchez\microServiciosDestinatarios\service\IDestinatarioService.class
-com\aldosanchez\microServiciosDestinatarios\repository\IDestinatarioRepository.class
-com\aldosanchez\microServiciosDestinatarios\MicroServiciosDestinatariosApplication.class
-com\aldosanchez\microServiciosDestinatarios\model\Envio.class
-com\aldosanchez\microServiciosDestinatarios\controller\DestinatarioController.class
-com\aldosanchez\microServiciosDestinatarios\model\Destinatario.class
-com\aldosanchez\microServiciosDestinatarios\service\DestinatarioService.class
