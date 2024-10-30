@@ -1,0 +1,14 @@
+com\aldosanchez\microServiciosDestinatarios\service\EnvioService.class
+com\aldosanchez\microServiciosDestinatarios\repository\IDestinatarioRepository.class
+com\aldosanchez\microServiciosDestinatarios\controller\ApiController.class
+com\aldosanchez\microServiciosDestinatarios\dto\DTOConverter.class
+com\aldosanchez\microServiciosDestinatarios\dto\DestinatarioDTO.class
+com\aldosanchez\microServiciosDestinatarios\service\DestinatarioService.class
+com\aldosanchez\microServiciosDestinatarios\service\IEnvioService.class
+com\aldosanchez\microServiciosDestinatarios\service\IDestinatarioService.class
+com\aldosanchez\microServiciosDestinatarios\controller\EnvioController.class
+com\aldosanchez\microServiciosDestinatarios\repository\IEnvioRepository.class
+com\aldosanchez\microServiciosDestinatarios\MicroServiciosDestinatariosApplication.class
+com\aldosanchez\microServiciosDestinatarios\model\Envio.class
+com\aldosanchez\microServiciosDestinatarios\model\Destinatario.class
+com\aldosanchez\microServiciosDestinatarios\dto\EnvioDTO.class

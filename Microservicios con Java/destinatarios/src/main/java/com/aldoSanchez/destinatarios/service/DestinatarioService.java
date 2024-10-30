@@ -13,7 +13,7 @@ public class DestinatarioService implements IDestinatarioService{
     private IDestinatarioRepository destiRepo;
 
     @Override
-    public List<Destinatario> getDestinatario() {
+    public List<Destinatario> getDestinatarios() {
         return destiRepo.findAll();
     }
 
@@ -33,7 +33,7 @@ public class DestinatarioService implements IDestinatarioService{
     }
 
     @Override
-    public void editDestinatario(Destinatario desti) {
+    public void editDestinatario(Long id_original, Destinatario desti) {
         this.saveDestinatario(desti);
     }
     

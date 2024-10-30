@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface IDestinatarioService {
     
-    public List<Destinatario> getDestinatario();
+    public List<Destinatario> getDestinatarios();
     
     public void saveDestinatario(Destinatario desti);
     
@@ -13,6 +13,6 @@ public interface IDestinatarioService {
     
     public Destinatario findDestinatario(Long id);
     
-    public void editDestinatario (Destinatario desti);
+    public void editDestinatario (Long id_original,Destinatario desti);
     
 }
