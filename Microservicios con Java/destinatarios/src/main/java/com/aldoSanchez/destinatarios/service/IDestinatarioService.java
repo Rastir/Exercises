@@ -14,5 +14,7 @@ public interface IDestinatarioService {
     public Destinatario findDestinatario(Long id);
     
     public void editDestinatario (Long id_original,Destinatario desti);
+
+    public Destinatario findDestinatarioDni(String dni);
     
 }

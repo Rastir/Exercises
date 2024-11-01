@@ -36,5 +36,10 @@ public class DestinatarioService implements IDestinatarioService{
     public void editDestinatario(Long id_original, Destinatario desti) {
         this.saveDestinatario(desti);
     }
+
+    @Override
+    public Destinatario findDestinatarioDni(String dni) {
+        return destiRepo.findByDni(dni);
+    }
     
 }

@@ -52,4 +52,9 @@ public class DestinatarioController {
         return destiServ.findDestinatario(id);
     }
     
+    @GetMapping("/destinatarios/traerdni/{dni}")
+    public Destinatario traerDestinatarioDni (@PathVariable String dni){
+        return destiServ.findDestinatarioDni(dni);
+    }
+    
 }

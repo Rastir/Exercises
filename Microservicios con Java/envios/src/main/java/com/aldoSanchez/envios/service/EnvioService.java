@@ -1,17 +1,22 @@
 package com.aldoSanchez.envios.service;
 
+import com.aldoSanchez.envios.model.Destinatario;
 import com.aldoSanchez.envios.model.Envio;
 import com.aldoSanchez.envios.repository.IEnvioRepository;
 import java.time.LocalDate;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 @Service
 public class EnvioService implements IEnvioService{
     
     @Autowired
     private IEnvioRepository envioRepo;
+    
+    @Autowired
+    private RestTemplate apiConsumir;
 
     @Override
     public List<Envio> getEnvios() {
@@ -23,14 +28,14 @@ public class EnvioService implements IEnvioService{
         
         
         //Buscar el destinatario en la api destinatario
-        // Destinatario dest = // buscar en la api
-        //String nombreCompletoDestinatario
+        Destinatario des = apiConsumir.getForObject("http://localhost:9001/destinatarios/traerdni/" + dniDestinatario, Destinatario.class);
+        String nombreCompletoDestinatario = des.getNombre() + " " + des.getApellido();
         
         Envio envio = new Envio();
         envio.setFecha_creacion(fecha_creacion);
         envio.setStatus(status);
         envio.setDescripcion(descripcion);
-        //envio.setNombreCompletoDestinatario();
+        envio.setNombreCompletoDestinatario(nombreCompletoDestinatario);
         
         envioRepo.save(envio);
     }
