@@ -1,0 +1,6 @@
+com\aldoSanchez\destinatarios\repository\IDestinatarioRepository.class
+com\aldoSanchez\destinatarios\DestinatariosApplication.class
+com\aldoSanchez\destinatarios\service\IDestinatarioService.class
+com\aldoSanchez\destinatarios\model\Destinatario.class
+com\aldoSanchez\destinatarios\controller\DestinatarioController.class
+com\aldoSanchez\destinatarios\service\DestinatarioService.class
