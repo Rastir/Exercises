@@ -1,0 +1,9 @@
+com\aldoSanchez\envios\model\Envio.class
+com\aldoSanchez\envios\repository\IEnvioRepository.class
+com\aldoSanchez\envios\service\IEnvioService.class
+com\aldoSanchez\envios\service\EnvioService.class
+com\aldoSanchez\envios\dto\EnvioDTO.class
+com\aldoSanchez\envios\configuration\AppConfiguration.class
+com\aldoSanchez\envios\controller\EnvioController.class
+com\aldoSanchez\envios\model\Destinatario.class
+com\aldoSanchez\envios\EnviosApplication.class
