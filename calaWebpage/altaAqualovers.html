@@ -49,6 +49,7 @@
                 Menu
             </div>
 
+
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
@@ -61,6 +62,7 @@
                         <h6 class="collapse-header">¿Qué trabajamos?:</h6>
                         <a class="collapse-item" href="altaAqualovers.html">Agregar persona</a>
                         <a class="collapse-item" href="modificarAqualovers.html">Modificar Aqua Lover</a>
+                        <a class="collapse-item" href="eliminarAqualovers.html">Eliminar Aqua Lover</a>
                     </div>
                 </div>
             </li>
@@ -77,8 +79,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">¿Qué deseas hacer?:</h6>
                         <a class="collapse-item" href="consulta.html">Consultar</a>
-                        <a class="collapse-item" href="utilities-border.html">Editar</a>
-                        <a class="collapse-item" href="utilities-animation.html">Borrar</a>
+                        <a class="collapse-item" href="visualizar.html">Visualizar</a>
 
                     </div>
                 </div>
@@ -147,7 +148,7 @@
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
+                                    Cerrar sesion!
                                 </a>
                             </div>
                         </li>
@@ -235,13 +236,15 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        ¿Seguro que desea confirmar los datos ingresados?
+                                        ¿Seguro que desea registrar a esta persona?
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Cancelar</button>
-                                        <button type="button" class="btn btn-primary"
-                                            id="confirmarRegistro">Confirmar</button>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Cancelar</button>
+                                            <button type="button" class="btn btn-success"
+                                                id="confirmarCambios">Confirmar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -278,16 +281,16 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">¿Aquí espantan?</h5>
                                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">×</span>
                                 </button>
                             </div>
-                            <div class="modal-body">Select "Logout" below if you are ready to end your current session.
+                            <div class="modal-body">¡Amonos! Si quieres salir oprime el boton correspondiente abajo.
                             </div>
                             <div class="modal-footer">
-                                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                                <a class="btn btn-primary" href="login.html">Logout</a>
+                                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                                <a class="btn btn-primary" href="login.html">Fuga</a>
                             </div>
                         </div>
                     </div>
