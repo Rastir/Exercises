@@ -1,0 +1,6 @@
+added exercises for the 3rd class of microservices
+
+
+added the update page to the work on progress 
+
+added an excercise for a microservice on a restaurant on the 1-3 versión 

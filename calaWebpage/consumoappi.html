@@ -77,7 +77,8 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">¿Qué deseas hacer?:</h6>
                         <a class="collapse-item" href="consulta.html">Consultar</a>
-                        <a class="collapse-item" href="visualizar.html">Visualizar</a>
+                        <a class="collapse-item" href="utilities-border.html">Editar</a>
+                        <a class="collapse-item" href="utilities-animation.html">Borrar</a>
 
                     </div>
                 </div>
@@ -100,12 +101,11 @@
                     </button>
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Agregar personas</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Modificar personas</h1>
                     </div>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
-
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <li class="nav-item dropdown no-arrow d-sm-none">
@@ -157,23 +157,16 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                    <!-- Content Row ////////////// AQUI ! /////////// -->
+                    <!-- Content Row //////////// AQUIIIII /////////////////// -->
+                    
+                    <link rel="stylesheet" href="api.css">
+                    <h1>Consumo de API</h1>
+                    <div id="api-data-container"></div>
+                    <button id="cargar">Cargar</button>
+                    <div id="resultado"></div>
+                    
 
 
-                    <div class="p-5">
-                        <div class="text-center">
-                            <h1 class="h4 text-gray-900 mb-4">Persona registrada correctamente</h1>
-                            <p>Los datos de la persona han sido registrados con exito, dar click en el boton de
-                                abajo para regresar al inicio.
-                            </p>
-                        </div>
-                        <form class="user">
-                            
-                            <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                <i class="fa-solid fa-check"></i> Inicio
-                            </a>
-                        </form>
-                    </div>
                 </div>
             </div>
             <!-- End of Main Content -->
@@ -235,6 +228,23 @@
     <!-- Font Awesome script-->
     <script src="https://kit.fontawesome.com/ec5d2cd8cd.js" crossorigin="anonymous"></script>
 
+    <script>
+        const apiUrl = 'http://vps-4437505-x.dattaweb.com:8080/personas/traer';
+
+        document.getElementById('cargar').addEventListener('click', async () => {
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                
+                const container = document.getElementById('resultado');
+                container.innerHTML = `
+                    <pre style="border: 1px solid #ccc; padding: 10px; margin-top: 10px; background-color: #f9f9f9;">${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                console.error('Error al consumir la API:', error);
+            }
+        });
+    </script>
     <style>
         .fixed-size {
             width: 100%;

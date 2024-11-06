@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Lovers</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Aqua Lovers</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Email</th>
+                            <th>ID Aqualover</th>
+                            <th>Numero de Visita</th>
+                            <th>Nivel de magia</th>
+                        </tr>
+                    </thead>
+                    <tbody id="aquaLoversTableBody">
+                        <!-- Data will be inserted here -->
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Email</th>
+                            <th>ID Aqualover</th>
+                            <th>Numero de Visita</th>
+                            <th>Nivel de magia</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Include Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Include DataTables JS -->
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('http://vps-4437505-x.dattaweb.com:8080/personas/traer') // Replace with your API endpoint
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.getElementById('aquaLoversTableBody');
+                    data.forEach(aqualover => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${aqualover.name}</td>
+                            <td>${aqualover.lastName}</td>
+                            <td>${aqualover.email}</td>
+                            <td>${aqualover.id_persona}</td>
+                            <td>${aqualover.noVisit}</td>
+                            <td>${aqualover.nivel_de_magia}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                    // Initialize DataTables
+                    $('#dataTable').DataTable();
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        });
+    </script>
+</body>
+</html>
