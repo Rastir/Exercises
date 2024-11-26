@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "22806af5-416b-4eed-8fe4-05d373b18ace",
+		"name": "Resilience4j-CircuitBreaker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27946130"
+	},
+	"item": [
+		{
+			"name": "localhost:8082/cities/hotels?name=Oberá&country=Argentina",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/cities/hotels?name=Oberá&country=Argentina",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cities",
+						"hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Oberá"
+						},
+						{
+							"key": "country",
+							"value": "Argentina"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
