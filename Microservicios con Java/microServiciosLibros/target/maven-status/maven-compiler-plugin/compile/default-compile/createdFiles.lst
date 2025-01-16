@@ -1,6 +1,0 @@
-com\aldosanchez\microServiciosLibros\MicroServiciosLibrosApplication.class
-com\aldosanchez\microServiciosLibros\model\Libro.class
-com\aldosanchez\microServiciosLibros\service\LibroService.class
-com\aldosanchez\microServiciosLibros\repository\ILibroRepository.class
-com\aldosanchez\microServiciosLibros\controller\LibroController.class
-com\aldosanchez\microServiciosLibros\service\ILibroService.class
